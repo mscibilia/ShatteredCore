@@ -1,9 +1,9 @@
 package com.github.shatteredsuite.core.commands;
 
 import com.github.shatteredsuite.core.commands.predicates.ArgumentMinimumPredicate;
-import com.github.shatteredsuite.core.commands.predicates.CommandContext;
 import com.github.shatteredsuite.core.commands.predicates.IndexedChildPredicate;
 import com.github.shatteredsuite.core.commands.responses.CancelResponse;
+import com.github.shatteredsuite.core.context.CommandContext;
 import com.github.shatteredsuite.core.messages.Messageable;
 import com.github.shatteredsuite.core.util.ArrayUtil;
 import org.bukkit.util.StringUtil;

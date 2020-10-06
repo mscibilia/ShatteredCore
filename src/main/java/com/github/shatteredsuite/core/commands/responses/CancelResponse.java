@@ -1,6 +1,6 @@
 package com.github.shatteredsuite.core.commands.responses;
 
-import com.github.shatteredsuite.core.commands.predicates.CommandContext;
+import com.github.shatteredsuite.core.context.CommandContext;
 import org.jetbrains.annotations.Nullable;
 
 public class CancelResponse extends PassResponse {

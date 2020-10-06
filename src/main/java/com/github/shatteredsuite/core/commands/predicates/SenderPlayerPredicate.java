@@ -2,6 +2,7 @@ package com.github.shatteredsuite.core.commands.predicates;
 
 import com.github.shatteredsuite.core.commands.responses.CancelResponse;
 import com.github.shatteredsuite.core.commands.responses.PredicateResponse;
+import com.github.shatteredsuite.core.context.CommandContext;
 import org.bukkit.entity.Player;
 
 public class SenderPlayerPredicate extends CommandContextPredicate {

@@ -1,7 +1,7 @@
 package com.github.shatteredsuite.core.commands;
 
-import com.github.shatteredsuite.core.commands.predicates.CommandContext;
 import com.github.shatteredsuite.core.commands.predicates.CommandContextPredicate;
+import com.github.shatteredsuite.core.context.CommandContext;
 import com.github.shatteredsuite.core.messages.Messageable;
 import com.github.shatteredsuite.core.validation.ArgumentValidationException;
 import org.bukkit.command.Command;

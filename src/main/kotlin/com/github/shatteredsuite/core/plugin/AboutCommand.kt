@@ -1,7 +1,7 @@
 package com.github.shatteredsuite.core.plugin
 
 import com.github.shatteredsuite.core.commands.LeafCommand
-import com.github.shatteredsuite.core.commands.predicates.CommandContext
+import com.github.shatteredsuite.core.context.CommandContext
 
 class AboutCommand(private val instance: ShatteredCore) :
     LeafCommand(instance, null, "shatteredcore", "shatteredcore.command.about", null) {

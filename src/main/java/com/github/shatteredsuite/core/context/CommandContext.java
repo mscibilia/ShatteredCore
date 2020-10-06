@@ -1,4 +1,4 @@
-package com.github.shatteredsuite.core.commands.predicates;
+package com.github.shatteredsuite.core.context;
 
 import com.github.shatteredsuite.core.commands.WrappedCommand;
 import com.github.shatteredsuite.core.messages.Messenger;
@@ -9,11 +9,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class CommandContext {
-    @NotNull
-    public final HashMap<String, String> contextMessages = new HashMap<>();
-    @NotNull
-    public final CommandSender sender;
+public class CommandContext extends CommandSenderContext {
     @NotNull
     public final String label;
     @NotNull
@@ -36,8 +32,8 @@ public class CommandContext {
     }
 
     public CommandContext(@NotNull WrappedCommand command, @NotNull CommandSender sender, @NotNull String label, @NotNull String[] args, @NotNull Messenger messenger, boolean cancelled, String parameter, boolean debug) {
+        super(sender);
         this.command = command;
-        this.sender = sender;
         this.label = label;
         this.args = args;
         this.messenger = messenger;

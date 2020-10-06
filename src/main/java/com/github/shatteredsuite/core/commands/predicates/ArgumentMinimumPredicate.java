@@ -1,6 +1,7 @@
 package com.github.shatteredsuite.core.commands.predicates;
 
 import com.github.shatteredsuite.core.commands.responses.PredicateResponse;
+import com.github.shatteredsuite.core.context.CommandContext;
 
 public class ArgumentMinimumPredicate extends CommandContextPredicate {
     private final int min;

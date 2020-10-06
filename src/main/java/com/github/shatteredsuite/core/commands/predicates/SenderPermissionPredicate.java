@@ -2,6 +2,7 @@ package com.github.shatteredsuite.core.commands.predicates;
 
 import com.github.shatteredsuite.core.commands.responses.CancelResponse;
 import com.github.shatteredsuite.core.commands.responses.PredicateResponse;
+import com.github.shatteredsuite.core.context.CommandContext;
 
 public class SenderPermissionPredicate extends CommandContextPredicate {
     public SenderPermissionPredicate(PredicateResponse response) {
